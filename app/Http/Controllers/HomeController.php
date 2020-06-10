@@ -4,27 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Patient;
+use App\rdv;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
     public function index()
     {
-        $patients = Patient::all();
-        return view('dashbord')->with('patients',$patients);
+        $patients = Patient::count();
+        $nb_rdv = rdv::getDayRdvCount();
+        return view('pages.dashbord')->with('nb_patients',$patients)->with('nb_rdv',$nb_rdv);
+    }
+    
+    public function accueil() {
+        
     }
 }

@@ -25,18 +25,16 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-        <v-app>
         <main>
+            <div id="app">
             @yield('content')
+           </div>
         </main>
-        <v-app>
-    </div>
     <script src="{{ asset('js/app.js') }}" ></script>
     @if(Session::has('success'))
     <script>
          setTimeout(() => {
-          toastr.success("Success","{!! Session::get('success') !!}")
+          toastr.success("{!! Session::get('success') !!}","Succés")
          }, 50);
     </script> 
     @endif

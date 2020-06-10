@@ -18,8 +18,9 @@ class CreatePatientsTable extends Migration
             $table->string('nom');
             $table->string('prenom');
             $table->string('profession')->default('employé');
+            $table->string('email');
             $table->string('etat_civil');
-            $table->integer('enfants')->nullable();
+            $table->string('gendre');
             $table->string('telephone');
             $table->integer('poids');
             $table->string('adresse');
@@ -27,6 +28,7 @@ class CreatePatientsTable extends Migration
             $table->float('tension_arterielle')->nullable();
             $table->float('temperature')->nullable();
             $table->date('date_naissance');
+            $table->integer('age');
             $table->string('lieu_naissance');
             $table->text('antecedents_medicaux')->nullable();
             $table->text('antecedents_cherirgieaux')->nullable();
