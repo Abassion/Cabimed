@@ -1,4 +1,7 @@
-Cabimed is a medical office management app, which does the following:
+
+<p align="center"><img src="https://i.ibb.co/s5WmkWW/Screenshot-1.png" width="500"></p>
+
+<strong>Cabimed</strong> is a medical office management app, which does the following:
 
 <ul>
     <li>
@@ -28,7 +31,7 @@ Cabimed is a medical office management app, which does the following:
 
 </ul>
 
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
