@@ -1,3 +1,33 @@
+Cabimed is a medical office management app, which does the following:
+
+<ul>
+    <li>
+    Creation/modification of patient files
+    </li>
+    <li>
+    Deleting patient files.
+    </li>
+    <li>
+    View/Edit a patient's personal information.
+    </li>
+    <li>
+    Manage patient appointments.
+    </li>
+    <li>
+    Printing a prescription for a patient.
+    </li>
+    <li>
+        Printing a medical report for a patient.
+    </li>
+     <li>
+    Contact the patient via his email.
+    </li>
+     <li>
+    Handle and save a treatment for a patient.
+    </li>
+
+</ul>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
