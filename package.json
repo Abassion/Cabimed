@@ -27,6 +27,6 @@
     },
     "dependencies": {
         "toastr": "^2.1.4",
-        "vuetify": "^2.2.28"
+        "vuetify": "^2.6.10"
     }
 }
